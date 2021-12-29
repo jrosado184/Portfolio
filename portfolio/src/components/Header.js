@@ -7,8 +7,8 @@ import whitegh from "../assets/whitegh.png";
 import { Switch } from "@headlessui/react";
 import { Link } from "react-router-dom";
 
-const Header = () => {
-  const [dark, setDark] = useState(false);
+const Header = (props) => {
+  const { dark, setDark } = props;
 
   return (
     <div
@@ -57,7 +57,7 @@ const Header = () => {
             rel="noreferrer"
           >
             <img
-              className="mr-4 w-12 h-12"
+              className="mr-4 w-12 h-12 mb-4"
               src={linkedin}
               alt="github"
               rel="noreferrer"
@@ -68,7 +68,7 @@ const Header = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img className="w-7 h-7 mr-4 my-2" src={instagram} alt="github" />
+            <img className="w-7 h-7 mr-4 my-2.5" src={instagram} alt="github" />
           </a>
           <a
             href="https://twitter.com/Javier_E_Rosado"
@@ -76,7 +76,7 @@ const Header = () => {
             rel="noreferrer"
           >
             <img
-              className="w-7 h-7 mr-4 w-9 h-9 my-1"
+              className="w-7 h-7 mr-4 w-9 h-9 my-1.5"
               src={twitter}
               alt="github"
             />
