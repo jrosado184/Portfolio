@@ -20,36 +20,41 @@ const About = (props) => {
         My name is Javier Rosado!
       </p>
       <div className="display: flex">
-        <img className="w-1/4 ml-80" src={me} />
+        <img className="w-1/4 ml-80" src={me} alt="" />
         <div className="ml-24">
           <h2 className=" text-4xl my-16 underline">
             {" "}
             Full Stack Web Developer
           </h2>
-          <div className="w-80 h-80 display: flex flex-wrap justify-evenly m-6">
-            <div className="w-24 h-28">
-              <img className="h-24 w-fit" src={html} />
+          <div className="w-80 h-80 display: flex flex-wrap justify-evenly m-6 items-center">
+            <div className="w-24 h-28 flex">
+              <img className="h-24 w-fit" src={html} alt="" />
             </div>
             <div className="w-24 h-28">
-              <img className="w-fit h-24" src={css} />
+              <img className="w-fit h-24" src={css} alt="" />
             </div>
             <div className="w-24 h-28">
               <img
                 className="w-fit h-24 rounded-2xl border-2 border-black"
                 src={javascript}
+                alt=""
               />
             </div>
             <div className="w-24 h-28">
-              <img className="w-fit h-24 animate-spin-slow" src={react} />
+              <img
+                className="w-fit h-24 animate-spin-slow"
+                src={react}
+                alt=""
+              />
             </div>
             <div className="w-24 h-28">
-              <img className="w-fit h-24" src={redux} />
+              <img className="w-fit h-24" src={redux} alt="" />
             </div>
             <div className="w-24 h-28">
-              <img className="w-fit h-24" src={node} />
+              <img className="w-fit h-24" src={node} alt="" />
             </div>
             <div className="w-24 h-28">
-              <img className="w-fit h-24" src={tailwind} />
+              <img className="w-fit h-24" src={tailwind} alt="" />
             </div>
           </div>
         </div>
