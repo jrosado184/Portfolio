@@ -1,99 +1,61 @@
-import React, { useState } from "react";
-import github from "../assets/github.png";
-import linkedin from "../assets/linkedin.png";
-import instagram from "../assets/instagram.png";
-import twitter from "../assets/twitter.png";
-import whitegh from "../assets/whitegh.png";
-import { Switch } from "@headlessui/react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { AiFillGithub } from 'react-icons/ai';
+import { AiFillLinkedin } from 'react-icons/ai';
+import { AiFillInstagram } from 'react-icons/ai';
+import { SiTwitter } from 'react-icons/si';
+import { Link } from 'react-router-dom';
+import ToggleSwitch from './ToggleSwitch';
 
-const Header = (props) => {
-  const { dark, setDark } = props;
-
+const Header = ({ dark, setDark }) => {
   return (
-    <div
-      className={
-        !dark
-          ? "w-full h-48 border-b-2 border-black"
-          : "w-full h-48 border-b-2 border-white bg-stone-900"
-      }
-    >
-      <div className="display: flex flex space-x-4 ">
-        <Link
-          to="/about"
-          className={!dark ? "my-40 ml-6" : "text-white my-40 ml-6"}
-        >
-          About
-        </Link>
-        <Link
-          to="/projects"
-          className={!dark ? "my-40 ml-6" : "text-white my-40 ml-6"}
-        >
-          Projects
-        </Link>
-        <Link
-          to="/resume"
-          className={!dark ? "my-40 ml-6" : "text-white my-40 ml-6"}
-        >
-          Resume
-        </Link>
-        <Link
-          to="/contact"
-          className={!dark ? "my-40 ml-6" : "text-white my-40 ml-6"}
-        >
-          Contact
-        </Link>
-        <div className="w-full h-48 display: flex justify-end my-36 ">
-          <a href="https://github.com/jrosado184" target="_blank">
-            {!dark ? (
-              <img className="w-8 h-8 mr-4 my-1.5" src={github} alt="github" />
-            ) : (
-              <img className="w-8 h-8 mr-4 my-1.5" src={whitegh} />
-            )}
+    <div className='w-full h-16 font-custom bg-sky-900 dark:bg-sky-900	'>
+      <div className='flex justify-between'>
+        <div className='hidden desktop:flex justify-end items-end pb-2 h-16'>
+          <Link to='/about' className='ml-6 text-neutral-100'>
+            About
+          </Link>
+          <Link to='/projects' className='ml-6 text-white'>
+            Projects
+          </Link>
+          <Link to='/resume' className='ml-6 text-neutral-100'>
+            Resume
+          </Link>
+          <Link to='/contact' className='ml-6 text-neutral-100'>
+            Contact
+          </Link>
+        </div>
+        <div className='flex justify-evenly items-end pb-2 w-full  gap-3 desktop:justify-end desktop:items-end desktop:w-62 h-16'>
+          <a
+            href='https://github.com/jrosado184'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <AiFillGithub className='w-9 h-9 text-neutral-100' />
           </a>
           <a
-            href="https://www.linkedin.com/in/javier-rosado-2974721b5/"
-            target="_blank"
-            rel="noreferrer"
+            href='https://www.linkedin.com/in/javier-rosado-2974721b5/'
+            target='_blank'
+            rel='noreferrer'
           >
-            <img
-              className="mr-4 w-12 h-12 mb-4"
-              src={linkedin}
-              alt="github"
-              rel="noreferrer"
-            />
+            <AiFillLinkedin className='w-9 h-9 text-neutral-100' />
           </a>
           <a
-            href="https://www.instagram.com/_papijavy/"
-            target="_blank"
-            rel="noreferrer"
+            href='https://www.instagram.com/_papijavy/'
+            target='_blank'
+            rel='noreferrer'
           >
-            <img className="w-7 h-7 mr-4 my-2.5" src={instagram} alt="github" />
+            <AiFillInstagram className='w-9 h-9 text-neutral-100' />
           </a>
           <a
-            href="https://twitter.com/Javier_E_Rosado"
-            target="_blank"
-            rel="noreferrer"
+            href='https://twitter.com/Javier_E_Rosado'
+            target='_blank'
+            rel='noreferrer'
           >
-            <img
-              className="w-7 h-7 mr-4 w-9 h-9 my-1.5"
-              src={twitter}
-              alt="github"
-            />
+            <SiTwitter className='w-9 h-9 text-neutral-100' />
           </a>
-          <Switch
-            checked={dark}
-            onChange={setDark}
-            className={`${
-              dark ? "bg-blue-400" : "bg-gray-400"
-            } relative inline-flex items-center h-6 rounded-full w-11 mr-16 my-3`}
-          >
-            <span
-              className={`${
-                dark ? "translate-x-6" : "translate-x-1"
-              } inline-block w-4 h-4 transform bg-white rounded-full`}
-            />
-          </Switch>
+          <div className='hidden desktop:block'>
+            <ToggleSwitch dark={dark} setDark={setDark} />
+          </div>
         </div>
       </div>
     </div>
