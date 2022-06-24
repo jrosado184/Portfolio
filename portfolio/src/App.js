@@ -7,12 +7,12 @@ const App = () => {
   const [dark, setDark] = useState(false);
 
   return (
-    <div className={dark && 'dark'}>
-      <div className='dark:bg-neutral-900	'>
+    <div className={dark ? 'dark' : ''}>
+      <div className='dark:bg-gray-700 border-neutral-100'>
         <Header dark={dark} setDark={setDark} />
-        <About dark={dark} />
+        <About />
+        <Projects />
       </div>
-      {/* <Projects dark={dark} /> */}
     </div>
   );
 };

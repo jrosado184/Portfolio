@@ -5,6 +5,10 @@ module.exports = {
       xr: '414px',
 
       desktop: '1429px',
+
+      md: '768px',
+
+      lg: '1245px',
     },
     extend: {
       animation: {
