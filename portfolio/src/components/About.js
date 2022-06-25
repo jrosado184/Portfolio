@@ -1,20 +1,20 @@
-import React from 'react';
-import me from '../assets/me.webp';
-import { ReactComponent as HtmlLogo } from '../assets/html.svg';
-import { ReactComponent as ReactLogo } from '../assets/react.svg';
-import { ReactComponent as CSSLogo } from '../assets/css.svg';
-import { ReactComponent as JSLogo } from '../assets/js.svg';
-import { ReactComponent as NodeLogo } from '../assets/node.svg';
-import { ReactComponent as PGLogo } from '../assets/pgsql.svg';
-import { ReactComponent as JestLogo } from '../assets/jest.svg';
-import { ReactComponent as GHLogo } from '../assets/github.svg';
-import { ReactComponent as VercelLogo } from '../assets/vercel.svg';
-import { ReactComponent as HerokuLogo } from '../assets/heroku.svg';
-import { ReactComponent as TailwindLogo } from '../assets/tailwind.svg';
-import { ReactComponent as FirebaseLogo } from '../assets/firebase.svg';
-import { ReactComponent as TSLogo } from '../assets/ts.svg';
-import { ReactComponent as ReduxLogo } from '../assets/redux.svg';
-import { ReactComponent as GitLogo } from '../assets/git.svg';
+import React from "react";
+import me from "../assets/me.webp";
+import { ReactComponent as HtmlLogo } from "../assets/logos/html.svg";
+import { ReactComponent as ReactLogo } from "../assets/logos/react.svg";
+import { ReactComponent as CSSLogo } from "../assets/logos/css.svg";
+import { ReactComponent as JSLogo } from "../assets/logos/js.svg";
+import { ReactComponent as NodeLogo } from "../assets/logos/node.svg";
+import { ReactComponent as PGLogo } from "../assets/logos/pgsql.svg";
+import { ReactComponent as JestLogo } from "../assets/logos/jest.svg";
+import { ReactComponent as GHLogo } from "../assets/logos/github.svg";
+import { ReactComponent as VercelLogo } from "../assets/logos/vercel.svg";
+import { ReactComponent as HerokuLogo } from "../assets/logos/heroku.svg";
+import { ReactComponent as TailwindLogo } from "../assets/logos/tailwind.svg";
+import { ReactComponent as FirebaseLogo } from "../assets/logos/firebase.svg";
+import { ReactComponent as TSLogo } from "../assets/logos/ts.svg";
+import { ReactComponent as ReduxLogo } from "../assets/logos/redux.svg";
+import { ReactComponent as GitLogo } from "../assets/logos/git.svg";
 
 const About = () => {
   return (
@@ -42,11 +42,11 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className='py-20 flex flex-col items-center md:w-[50%] lg:h-[100vh] dark:bg-gray-700'>
+        <div className='py-14 flex flex-col items-center md:w-[50%] lg:h-[100vh] dark:bg-gray-700'>
           <h3 className='font-custom text-3xl dark:text-neutral-100 my-6 desktop:text-4xl'>
             Full Stack Web Developer
           </h3>
-          <div className='w-[70%] flex flex-wrap items-start my-12 justify-evenly gap-8 desktop:w-[60%] h-[30%]'>
+          <div className='w-[70%] flex flex-wrap items-start my-6 justify-evenly gap-8 md:w-[73%] h-[30%]'>
             <div className='flex flex-col justify-center items-center'>
               <HtmlLogo className='w-20 h-20' />
               <p className='text-neutral-100 font-custom m-2'>HTML</p>
