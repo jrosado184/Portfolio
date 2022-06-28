@@ -1,14 +1,14 @@
-import React from 'react';
-import { AiFillGithub } from 'react-icons/ai';
-import { AiFillLinkedin } from 'react-icons/ai';
-import { AiFillInstagram } from 'react-icons/ai';
-import { SiTwitter } from 'react-icons/si';
-import { Link } from 'react-router-dom';
-import ToggleSwitch from './utils/ToggleSwitch';
+import React from "react";
+import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
+import { SiTwitter } from "react-icons/si";
+import { Link } from "react-router-dom";
+import ToggleSwitch from "./utils/ToggleSwitch";
 
 const Header = ({ dark, setDark }) => {
   return (
-    <div className='w-full h-16 font-custom bg-text-900 bg-gray-900	'>
+    <div className='w-full h-16 font-custom bg-text-900 bg-gray-900 sticky top-0 z-20'>
       <div className='flex justify-between'>
         <div className='hidden desktop:flex justify-end items-end pb-2 h-16'>
           <Link to='/about' className='ml-6 text-neutral-100'>
