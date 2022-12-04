@@ -8,7 +8,9 @@ module.exports = {
 
       md: "768px",
 
-      lg: "1245px",
+      landscape: "896px",
+
+      lg: "1112px",
     },
     extend: {
       animation: {

@@ -18,14 +18,14 @@ import { ReactComponent as GitLogo } from "../assets/logos/git.svg";
 
 const About = () => {
   return (
-    <div className='w-full'>
+    <div>
       <div className='md:flex'>
         <div className='w-full h-full flex flex-col items-center my-16 md:w-[50%]'>
           <div id='about' className='flex flex-col items-center'>
             <h1 className='font-custom text-3xl dark:text-neutral-100 desktop:text-5xl'>
               Welcome to my page!
             </h1>
-            <h2 className='font-custom text-gray-900 text-1xl ml-20 desktop:text-3xl desktop:ml-80 dark:text-neutral-100'>
+            <h2 className='font-custom w-full text-gray-900 text-1xl pl-36 desktop:text-3xl dark:text-neutral-100'>
               My name is Javier Rosado.
             </h2>
             <div className='flex flex-col desktop:flex-row justify-center items-center'>
@@ -42,11 +42,11 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className='py-24 flex flex-col items-center md:w-[50%] lg:h-[100vh] lg:py-20 dark:bg-gray-700'>
+        <div className='py-24 flex flex-col items-center md:w-[60%] lg:h-[100vh] lg:py-20 dark:bg-gray-700'>
           <h3 className='font-custom text-3xl dark:text-neutral-100 py-2 desktop:text-4xl'>
             Full Stack Web Developer
           </h3>
-          <div className='w-[70%] flex flex-wrap items-start justify-evenly gap-8 md:w-[73%] h-[30%]'>
+          <div className='w-[70%] my-6 flex flex-wrap items-start justify-evenly gap-8 md:w-[73%] h-[30%]'>
             <div className='flex flex-col justify-center items-center'>
               <HtmlLogo className='w-20 h-20' />
               <p className='font-custom m-2 dark:text-neutral-100'>HTML</p>
