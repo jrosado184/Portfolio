@@ -42,8 +42,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className='py-14 flex flex-col items-center md:w-[50%] lg:h-[100vh] dark:bg-gray-700'>
-          <h3 className='font-custom text-3xl dark:text-neutral-100 my-6 desktop:text-4xl'>
+        <div className='py-24 flex flex-col items-center md:w-[50%] lg:h-[100vh] lg:py-20 dark:bg-gray-700'>
+          <h3 className='font-custom text-3xl dark:text-neutral-100 py-2 desktop:text-4xl'>
             Full Stack Web Developer
           </h3>
           <div className='w-[70%] flex flex-wrap items-start justify-evenly gap-8 md:w-[73%] h-[30%]'>
@@ -57,12 +57,14 @@ const About = () => {
             </div>
             <div className='flex flex-col justify-center items-center'>
               <JSLogo className='w-20 h-20' />
-              <p className='font-custom m-2 dark:text-neutral-100'>JavScript</p>
+              <p className='font-custom m-2 dark:text-neutral-100'>
+                JavaScript
+              </p>
             </div>
             <div className='flex flex-col justify-center items-center'>
               <TSLogo className='w-20 h-20' />
               <p className='font-custom m-2 dark:text-neutral-100'>
-                Typescript
+                TypeScript
               </p>
             </div>
             <div className='flex flex-col justify-center items-center'>
