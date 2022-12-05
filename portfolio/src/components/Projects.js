@@ -8,9 +8,11 @@ import { AiFillGithub } from "react-icons/ai";
 
 const Projects = () => {
   return (
-    <div className='w-full bg-slate-100 h-full flex flex-col items-center py-20 dark:bg-gray-600'>
-      <h1 className='font-custom text-3xl dark:text-neutral-100'>Projects</h1>
-      <div className='w-[100%] h-full lg:flex lg:flex-wrap lg:justify-around'>
+    <div className='w-full bg-slate-100 h-full flex flex-col items-center py-4 dark:bg-gray-600'>
+      <h1 className='font-poppins font-bold text-2xl text-blue-900 dark:text-neutral-100 lg:text-4xl'>
+        Projects
+      </h1>
+      <div className='w-[100%] h-full lg:flex lg:flex-wrap lg:gap-8 lg:justify-center'>
         <div className='flex flex-col items-center my-14'>
           <img
             className='hidden w-[95%] h-[30vh] rounded-md ipadlandscape:w-6 lg:h-[40vh] lg:w-[40vw] dark:flex'
@@ -22,8 +24,10 @@ const Projects = () => {
             src={nailHPLight}
             alt=''
           />
-          <div className='w-[95%] flex justify-between lg:w-[100%]'>
-            <p className='font-bold dark:text-neutral-100'>LoveByLaysha</p>
+          <div className='w-[95%] flex justify-between py-4 lg:w-[100%]'>
+            <p className='font-poppins font-bold dark:text-neutral-100'>
+              LoveByLaysha
+            </p>
             <div className='flex items-center justify-center gap-1'>
               <a
                 href='https://github.com/jrosado184/LoveByLaysha'
@@ -56,17 +60,17 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className='flex flex-col items-center my-14'>
+        <div className='flex flex-col items-center my-32 lg:my-14'>
           <img
             className='w-[95%]
-            
-            
             h-[30vh] border border-gray-300 rounded-md md:h-[34vh] lg:h-[40vh] lg:w-[40vw]'
             src={underdog}
             alt=''
           />
-          <div className='w-[95%] flex justify-between lg:w-[100%]'>
-            <p className='font-bold dark:text-neutral-100'>Underdog Devs</p>
+          <div className='w-[95%] flex justify-between py-4 lg:w-[100%]'>
+            <p className='font-poppins font-bold dark:text-neutral-100'>
+              Underdog Devs
+            </p>
             <div className='flex items-center justify-center gap-1'>
               <a
                 href='https://github.com/BloomTech-Labs/underdog-devs-fe-a'
@@ -99,17 +103,17 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className='flex flex-col items-center my-14'>
+        <div className='flex flex-col items-center my-32 lg:my-0'>
           <img
             className='w-[95%]
-            
-            
             h-[30vh] border border-gray-300 rounded-md md:h-[34vh] lg:h-[40vh] lg:w-[40vw]'
             src={ytproject}
             alt=''
           />
-          <div className='w-[95%] flex justify-between lg:w-[100%]'>
-            <p className='font-bold dark:text-neutral-100'>Youtube Clone</p>
+          <div className='w-[95%] flex justify-between py-4 lg:w-[100%]'>
+            <p className='font-poppins font-bold dark:text-neutral-100'>
+              Youtube Clone
+            </p>
             <div className='flex items-center justify-center gap-1'>
               <a
                 href='https://github.com/jrosado184/Youtube-Clone'

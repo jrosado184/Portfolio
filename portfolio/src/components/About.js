@@ -20,17 +20,17 @@ const About = () => {
   return (
     <div>
       <div className='md:flex'>
-        <div className='w-full h-full flex flex-col items-center my-16 md:w-[50%]'>
+        <div className='w-full h-full flex flex-col items-center my-16 md:w-[40%]'>
           <div id='about' className='flex flex-col items-center'>
-            <h1 className='font-custom text-3xl dark:text-neutral-100 desktop:text-5xl'>
+            <h1 className='font-poppins font-bold text-3xl md:text-2xl text-blue-900 dark:text-neutral-100 lg:text-5xl'>
               Welcome to my page!
             </h1>
-            <h2 className='font-custom w-full text-gray-900 text-1xl pl-36 desktop:text-3xl dark:text-neutral-100'>
+            <h2 className='font-poppins font-bold w-full text-gray-900 text-1xl pl-36 md:pl-20 desktop:ml-36 desktop:text-3xl dark:text-neutral-100'>
               My name is Javier Rosado.
             </h2>
             <div className='flex flex-col desktop:flex-row justify-center items-center'>
               <img className='w-96' src={me} alt='author' />
-              <button className='w-24 h-10 font-custom ml-8 bg-gray-900 text-neutral-100 rounded-md animate-bounce'>
+              <button className='w-24 h-10 font-poppins font-bold ml-8 bg-blue-900 text-neutral-100 rounded-md animate-bounce'>
                 <a
                   href='https://docs.google.com/document/d/1BiUdLN4Lq72yS2iGwXbwPcu4cOjIs__u/edit?usp=sharing&ouid=106553958242504573354&rtpof=true&sd=true'
                   target='_blank'
@@ -43,75 +43,99 @@ const About = () => {
           </div>
         </div>
         <div className='py-24 flex flex-col items-center md:w-[60%] lg:h-[100vh] lg:py-20 dark:bg-gray-700'>
-          <h3 className='font-custom text-3xl dark:text-neutral-100 py-2 desktop:text-4xl'>
+          <h3 className='font-poppins font-bold text-2xl text-blue-900 dark:text-neutral-100 py-2 desktop:text-4xl'>
             Full Stack Web Developer
           </h3>
           <div className='w-[70%] my-6 flex flex-wrap items-start justify-evenly gap-8 md:w-[73%] h-[30%]'>
             <div className='flex flex-col justify-center items-center'>
               <HtmlLogo className='w-20 h-20' />
-              <p className='font-custom m-2 dark:text-neutral-100'>HTML</p>
+              <p className='font-poppins font-bold m-2 dark:text-neutral-100'>
+                HTML
+              </p>
             </div>
             <div className='flex flex-col justify-center items-center'>
               <CSSLogo className='w-20 h-20' />
-              <p className='font-custom m-2 dark:text-neutral-100'>CSS</p>
+              <p className='font-poppins font-bold m-2 dark:text-neutral-100'>
+                CSS
+              </p>
             </div>
             <div className='flex flex-col justify-center items-center'>
               <JSLogo className='w-20 h-20' />
-              <p className='font-custom m-2 dark:text-neutral-100'>
+              <p className='font-poppins font-bold m-2 dark:text-neutral-100'>
                 JavaScript
               </p>
             </div>
             <div className='flex flex-col justify-center items-center'>
               <TSLogo className='w-20 h-20' />
-              <p className='font-custom m-2 dark:text-neutral-100'>
+              <p className='font-poppins font-bold m-2 dark:text-neutral-100'>
                 TypeScript
               </p>
             </div>
             <div className='flex flex-col justify-center items-center'>
               <ReactLogo className='w-20 h-20 animate-spin-slow' />
-              <p className='font-custom m-2 dark:text-neutral-100'>React</p>
+              <p className='font-poppins font-bold m-2 dark:text-neutral-100'>
+                React
+              </p>
             </div>
             <div className='flex flex-col justify-center items-center'>
               <JestLogo className='w-20 h-20' />
-              <p className='font-custom m-2 dark:text-neutral-100'>Jest</p>
+              <p className='font-poppins font-bold m-2 dark:text-neutral-100'>
+                Jest
+              </p>
             </div>
             <div className='flex flex-col justify-center items-center'>
               <ReduxLogo className='w-20 h-20' />
-              <p className='font-custom m-2 dark:text-neutral-100'>Redux</p>
+              <p className='font-poppins font-bold m-2 dark:text-neutral-100'>
+                Redux
+              </p>
             </div>
             <div className='flex flex-col justify-center items-center'>
               <NodeLogo className='w-20 h-20' />
-              <p className='font-custom m-2 dark:text-neutral-100'>Node</p>
+              <p className='font-poppins font-bold m-2 dark:text-neutral-100'>
+                Node
+              </p>
             </div>
             <div className='flex flex-col justify-center items-center'>
               <FirebaseLogo className='w-20 h-20' />
-              <p className='font-custom m-2 dark:text-neutral-100'>Firebase</p>
+              <p className='font-poppins font-bold m-2 dark:text-neutral-100'>
+                Firebase
+              </p>
             </div>
             <div className='flex flex-col justify-center items-center'>
               <PGLogo className='w-20 h-20' />
-              <p className='font-custom m-2 dark:text-neutral-100'>
+              <p className='font-poppins font-bold m-2 dark:text-neutral-100'>
                 PostgreSQL
               </p>
             </div>
             <div className='flex flex-col justify-center items-center'>
               <VercelLogo className='w-20 h-20' />
-              <p className='font-custom m-2 dark:text-neutral-100'>Vercel</p>
+              <p className='font-poppins font-bold m-2 dark:text-neutral-100'>
+                Vercel
+              </p>
             </div>
             <div className='flex flex-col justify-center items-center'>
               <HerokuLogo className='w-20 h-20' />
-              <p className='font-custom m-2 dark:text-neutral-100'>Heroku</p>
+              <p className='font-poppins font-bold m-2 dark:text-neutral-100'>
+                Heroku
+              </p>
             </div>
             <div className='flex flex-col justify-center items-center'>
               <GHLogo className='w-20 h-20' />
-              <p className='font-custom m-2 dark:text-neutral-100'>Github</p>
+              <p className='font-poppins font-bold m-2 dark:text-neutral-100'>
+                Github
+              </p>
             </div>
             <div className='flex flex-col justify-center items-center'>
               <GitLogo className='w-20 h-20' />
-              <p className='font-custom m-2 dark:text-neutral-100'>Git</p>
+              <p className='font-poppins font-bold m-2 dark:text-neutral-100'>
+                Git
+              </p>
             </div>
             <div className='flex flex-col justify-center items-center'>
               <TailwindLogo className='w-20 h-20' />
-              <p className='font-custom m-2 dark:text-neutral-100'>Tailwind</p>
+              <p className='font-poppins font-bold m-2 dark:text-neutral-100'>
+                Tailwind
+              </p>
             </div>
           </div>
         </div>

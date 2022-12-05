@@ -21,6 +21,7 @@ module.exports = {
       },
       fontFamily: {
         custom: "Roboto Slab",
+        poppins: "Poppins",
       },
     },
   },
