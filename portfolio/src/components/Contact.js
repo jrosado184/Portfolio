@@ -44,8 +44,8 @@ const Contact = () => {
 
   return (
     <div className='w-full h-[95vh]  bg-slate-200'>
-      <div className='flex justify-center py-10'>
-        <h1 className='text-2xl font-poppins font-bold text-blue-900'>
+      <div className='flex justify-center py-16'>
+        <h1 className='text-4xl font-poppins font-bold text-blue-900'>
           Contact
         </h1>
       </div>

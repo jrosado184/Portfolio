@@ -7,7 +7,7 @@ import ToggleSwitch from "./utils/ToggleSwitch";
 
 const Header = ({ dark, setDark }) => {
   return (
-    <div className='w-full h-16 font-custom bg-text-900 bg-blue-900 sticky top-0 z-20'>
+    <div className='w-full h-16 font-custom bg-text-900 bg-[#4460aa] sticky top-0 z-20'>
       <div className='flex justify-between desktop:ml-8'>
         <div className='flex justify-evenly items-end pb-2 w-full gap-8 h-16'>
           <a

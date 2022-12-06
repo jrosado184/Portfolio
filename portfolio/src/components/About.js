@@ -30,7 +30,7 @@ const About = () => {
             </h2>
             <div className='flex flex-col desktop:flex-row justify-center items-center'>
               <img className='w-96' src={me} alt='author' />
-              <button className='w-24 h-10 font-poppins font-bold ml-8 bg-blue-900 text-neutral-100 rounded-md animate-bounce'>
+              <button className='w-24 h-10 font-poppins font-bold ml-8 bg-[#4460aa] text-neutral-100 rounded-md animate-bounce'>
                 <a
                   href='https://docs.google.com/document/d/1BiUdLN4Lq72yS2iGwXbwPcu4cOjIs__u/edit?usp=sharing&ouid=106553958242504573354&rtpof=true&sd=true'
                   target='_blank'
