@@ -20,9 +20,9 @@ const About = () => {
   return (
     <div>
       <div className='md:flex'>
-        <div className='w-full h-full flex flex-col items-center my-16 md:w-[40%]'>
+        <div className='w-full h-full flex flex-col items-center my-16 md:w-[50%]'>
           <div id='about' className='flex flex-col items-center'>
-            <h1 className='font-poppins font-bold text-3xl md:text-2xl text-blue-900 dark:text-neutral-100 lg:text-5xl'>
+            <h1 className='font-poppins font-bold text-3xl md:text-1xl text-blue-900 dark:text-neutral-100 lg:text-5xl'>
               Welcome to my page!
             </h1>
             <h2 className='font-poppins font-bold w-full text-gray-900 text-1xl pl-36 md:pl-20 desktop:ml-36 desktop:text-3xl dark:text-neutral-100'>

@@ -146,7 +146,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className='flex flex-col items-center my-32 lg:my-0 lg:invisible'>
+        <div className='flex-col items-center my-32 hidden lg:flex lg:my-0 lg:invisible'>
           <img
             className='w-[95%]
             h-[30vh] border border-gray-300 rounded-md md:h-[34vh] lg:h-[40vh] lg:w-[40vw]'
