@@ -25,7 +25,7 @@ const About = () => {
             <h1 className='font-poppins font-bold text-3xl md:text-1xl text-blue-900 dark:text-neutral-100 lg:text-5xl'>
               Welcome to my page!
             </h1>
-            <h2 className='font-poppins font-bold w-full text-gray-900 text-1xl pl-36 md:pl-20 desktop:ml-36 desktop:text-3xl dark:text-neutral-100'>
+            <h2 className='font-poppins font-bold w-full text-gray-900 text-1xl pl-36 md:pl-20 lg:my-1 desktop:ml-36 desktop:text-3xl dark:text-neutral-100'>
               My name is Javier Rosado.
             </h2>
             <div className='flex flex-col desktop:flex-row justify-center items-center'>
