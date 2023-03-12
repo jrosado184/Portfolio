@@ -123,7 +123,7 @@ const Projects = () => {
                 <AiFillGithub className='w-6 h-5 dark:text-neutral-100' />
               </a>
               <a
-                href='https://youtube-clone-livid.vercel.app/'
+                href='https://youtube-clone-jrosado184.vercel.app/'
                 target='_blank'
                 rel='noreferrer'
               >
